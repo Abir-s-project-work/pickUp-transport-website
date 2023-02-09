@@ -7,7 +7,123 @@
     <link rel="stylesheet" href="../STYLING/style.css">
   </head>
   <body>
-   hello
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <h1>This is the home page</h1> -->
+    
+        <div class="content-sidebar">
+            <div class="nav">
+                <a href="#" class="item-logo">Pick Up Transport</a>
+                <div class="nav-items">
+                    <a href="#" class="item-grid1">Customer</a>
+                    <a href="#" class="item-grid2">Bookings</a>
+                    <a href="#" class="item-grid3">Buses</a>
+                    <a href="#" class="item-grid4">Seats</a>
+                    <a href="#" class="item-grid5">Reports</a>
+                </div>
+            </div>
+           
+              <div class="content">
+                <div class="admin-dashboard-welcome">
+                    <h2>
+                      Welcome <span>admin</span>
+                    </h2>
+                  </div>
+                  <hr>
+
+                  <div class="bus-status-container">
+                      <div class="bus-status">
+                        <img src="../images/customer-feedback-1.png" alt="customers">
+                        <p class="number">3</p>
+                        <button id="customers">Customers</button>
+                      </div>
+
+                      <div class="bus-status">
+                        <img src="../images/schedule-1.png" alt="schedule">
+                        <p class="number">7</p>
+                        <button id="bookings">Bookings</button>
+                      </div>
+
+                      <div class="bus-status">
+                        <img src="../images/calendar-1.png" alt="calendar">
+                        <p>Thursday 9 Feb 2022</p>
+                        <button id="date">Date</button>
+                      </div>
+
+                      <div class="bus-status">
+                        <img src="../images/user-1.png" alt="admin">
+                        <p class="number">Administrator</p>
+                        <button id="admin-btn">Account</button>
+                      </div>
+
+                      <div class="bus-status">
+                        <img src="../images/bus-1.png" alt="bus">
+                        <p class="number">2</p>
+                        <button id="bus">Bus</button>
+                      </div>
+
+                      <div class="bus-status">
+                        <img src="../images/car-chair-1.png" alt="seats">
+                        <p class="number">10</p>
+                        <button id="seats">Seats</button>
+                      </div>
+                  </div>
+
+                  <div class="database-container">
+                    <div class="notification">
+                    <!--Notification Icon-->  
+                      Bookings
+                    </div>
+
+                    <div class="warning">
+                      <h3 class="warning-text">No Bookings Due Today.</h3>
+                    </div>
+
+                    <div class="database-table">
+                      <table>
+                        <tr class="table-header">
+                        <th>ID No.</th>
+                        <th>FullName</th>
+                        <th>Phone</th>
+                        <th>Bus</th>
+                        <th>Seat</th>
+                        <th>Date</th>
+                        <th>Departure Time</th>
+                        <th>Amount</th>
+                        <th>Date Booked</th>
+                        </tr>
+                        <tr>
+                        <td>1234456</td>
+                        <td>Griffin</td>
+                        <td>0000 000 000</td>
+                        <td>Corolla GT-564849</td>
+                        <td>12</td>
+                        <td>2nd February 2023</td>
+                        <td>2:30PM</td>
+                        <td>$2</td>
+                        <td>17th January 2023</td>
+                        </tr>
+                       
+                      </table>
+                      <button>See All Due Today</button>
+                    </div>
+
+                  </div>
+
+
+
+              </div>
+           
+    </body>
+    </html>
      <script src="../JAVASCRIPT/index.js"></script>
   </body>
 </html>

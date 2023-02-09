@@ -1,2 +1,197 @@
 /*CSS CODES HERE*/
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e2faff70;
+}
+
+.content {
+    margin-left: 250px;
+}
+
+.nav {
+    position: fixed !important;
+    height: 100%;
+    width: 230px;
+    background-color: #071027;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin-top: 0px;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+.nav .nav-items {
+    display: grid;
+    grid-template-rows: repeat(10, 2fr);
+    place-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-logo {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Kanit',monospace;
+}
+
+.item-grid1 {
+    grid-row: 1/2;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.item-grid2 {
+    grid-row: 2/3;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.item-grid3 {
+    grid-row: 3/4;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.item-grid4 {
+    grid-row: 4/5;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.item-grid5 {
+    grid-row: 5/6;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.admin-dashboard-welcome {
+    padding: 20px 0 10px ;
+}
+
+.admin-dashboard-welcome h2 {
+    font-size: 2rem;
+}
+
+.admin-dashboard-welcome h2 span {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.bus-status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px 0;
+}
+
+.bus-status {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin: 20px 10px;
+    background: #fff;
+    padding: 20px;
+}
+
+.bus-status img {
+    width: 200px;
+    height: auto;
+}
+.bus-status p {
+    margin: 10px 0;
+}
+
+.bus-status button {
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    
+    border: 0;
+    border-radius: 5px;
+}
+
+#customers {
+    background: #AD57FE;
+}
+
+#bookings {
+    background: plum;
+}
+
+#date {
+    background: peachpuff;
+}
+
+#admin-btn {
+    background: dodgerblue;
+}
+
+#bus {
+    background: #FF4E32;
+}
+
+#seats {
+    background: darkslategrey;
+}
+
+.database-container {
+    background: #fff;
+    padding: 20px;
+    margin: 30px 10px;
+}
+
+.warning {
+    background: #F0FFE8;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 95%;
+    margin: 15px 8px;
+    color: #2a620c;
+}
+
+.database-table {
+    text-align: center;
+    margin: 70px 0;
+}
+
+td {
+    border-left: 1px solid rgb(174, 171, 171);
+    padding: 5px 13px;
+}
+
+.tr {
+    height: 10vh;
+}
+
+.database-table button {
+    width: 100%;
+    margin: 40px 0;
+    padding: 10px;
+    background: #4FC2F1;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.database-table button:hover {
+    background: #3b98bd;
+    transition: .3s;
+} 
