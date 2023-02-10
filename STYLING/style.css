@@ -1,7 +1,5 @@
 /*CSS CODES HERE*/
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -33,18 +31,24 @@ body {
 .nav .nav-items {
     display: grid;
     grid-template-rows: repeat(10, 2fr);
-    place-items: center;
+    place-items: flex-start;
 }
 
 .nav a {
     color: #fff;
     text-decoration: none;
+    
+    font-family: 'Roboto', sans-serif;
 }
 
 .item-logo {
     font-size: 35px;
     text-align: center;
     font-family: 'Kanit',monospace;
+}
+
+.item-logo img {
+    width: 75%;
 }
 
 .item-grid1 {
@@ -77,17 +81,29 @@ body {
     font-size: 17px;
 }
 
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item:hover {
+    color: red!important;
+}
+
 .admin-dashboard-welcome {
     padding: 20px 0 10px ;
 }
 
 .admin-dashboard-welcome h2 {
     font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
 }
 
 .admin-dashboard-welcome h2 span {
     color: grey;
     font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
 }
 
 .bus-status-container {
@@ -104,11 +120,11 @@ body {
     place-items: center;
     margin: 20px 10px;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
 }
 
 .bus-status img {
-    width: 200px;
+    width: 180px;
     height: auto;
 }
 .bus-status p {
@@ -129,24 +145,48 @@ body {
     background: #AD57FE;
 }
 
+#customers:hover {
+    background: #7a3eb2;
+}
+
 #bookings {
     background: plum;
+}
+
+#bookings:hover {
+    background: rgb(148, 105, 148);
 }
 
 #date {
     background: peachpuff;
 }
 
+#date:hover {
+    background: rgb(202, 173, 148);
+}
+
 #admin-btn {
     background: dodgerblue;
+}
+
+#admin-btn:hover {
+    background: rgb(24, 101, 178);
 }
 
 #bus {
     background: #FF4E32;
 }
 
+#bus:hover {
+    background: #a73a29;
+}
+
 #seats {
     background: darkslategrey;
+}
+
+#seats:hover {
+    background: rgb(30, 51, 51);
 }
 
 .database-container {
@@ -154,6 +194,14 @@ body {
     padding: 20px;
     margin: 30px 10px;
 }
+
+.notification {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+}
+
 
 .warning {
     background: #F0FFE8;
@@ -163,6 +211,7 @@ body {
     width: 95%;
     margin: 15px 8px;
     color: #2a620c;
+    font-family: 'Roboto',sans-serif;
 }
 
 .database-table {
@@ -170,9 +219,15 @@ body {
     margin: 70px 0;
 }
 
+th {
+    font-family: 'Roboto',sans-serif;
+    color: rgb(60, 57, 57);
+}
+
 td {
     border-left: 1px solid rgb(174, 171, 171);
     padding: 5px 13px;
+    font-family: 'Poppins',sans-serif;
 }
 
 .tr {
@@ -189,6 +244,8 @@ td {
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+
 }
 
 .database-table button:hover {
